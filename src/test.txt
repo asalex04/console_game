@@ -1,0 +1,7 @@
+{"round":1,"win":1}
+{"round":2,"win":1}
+{"round":3,"win":2}
+{"round":4,"win":3}
+{"round":1,"win":0}
+{"round":2,"win":0}
+{"round":3,"win":1}
