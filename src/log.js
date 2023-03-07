@@ -5,7 +5,7 @@ const startLog = () => {
         const {round, win} = JSON.parse(data)
         console.log(`общее количество партий: ${round}`)
         console.log(`количество выигранных/проигранных партий: ${win}/${round - win}`)
-        console.log(`процентное соотношение выигранных партий: ${win * 100 / round}%`)
+        console.log(`процентное соотношение выигранных партий: ${(win * 100 / round).toFixed(2)}%`)
     })
 }
 
